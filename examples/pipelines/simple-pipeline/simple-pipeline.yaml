@@ -15,9 +15,7 @@ spec:
             metadata:
               generateName: fedora-server-
             spec:
-              pvc:
-                accessModes:
-                  - ReadWriteOnce
+              storage:
                 resources:
                   requests:
                     storage: 30Gi
